@@ -157,7 +157,6 @@ class AITank(Tank):
         return result
 
     def _move_tank(self, enemy_shells, barrier_x, back_wall_x):
-        #  print(str(self._current_direction_counter) + " out of " + str(self._dir_change_value))
         enemy_shell_hit_locations = []
         tank_speed = 1
         for shell in enemy_shells:
@@ -222,7 +221,6 @@ class AITank(Tank):
                         pass
                     else:
                         if bool(random.getrandbits(1)):
-                            print("bool chosen")
                             x_move *= -1
 
                     self._current_direction_counter = 0

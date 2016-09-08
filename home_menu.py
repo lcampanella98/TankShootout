@@ -100,4 +100,5 @@ class HomeMenu:
         self.__game.message_to_screen(self.__game.small_font, "Fire: Spacebar", self.__game.black, -30)
         self.__game.message_to_screen(self.__game.small_font, "Move Turret: Up and Down Arrows", self.__game.black, 0)
         self.__game.message_to_screen(self.__game.small_font, "Move Tank: Left and Right Arrows", self.__game.black, 30)
-        self.__game.message_to_screen(self.__game.small_font, "Pause: E", self.__game.black, 60)
+        self.__game.message_to_screen(self.__game.small_font, "Change Shell Power: A and D", self.__game.black, 60)
+        self.__game.message_to_screen(self.__game.small_font, "Pause: E", self.__game.black, 90)
