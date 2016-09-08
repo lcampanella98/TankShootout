@@ -261,13 +261,13 @@ class Game:
         tank_x_increment = 0
         tank_angle_increment = 0
         if self.game_difficulty == 0:
-            self.main_tank.set_reload_time(0.35)
+            self.main_tank.set_reload_time(0.20)
             self.enemy_tank.set_reload_time(1.00)
         elif self.game_difficulty == 1:
-            self.main_tank.set_reload_time(0.50)
+            self.main_tank.set_reload_time(0.40)
             self.enemy_tank.set_reload_time(0.85)
         elif self.game_difficulty == 2:
-            self.main_tank.set_reload_time(0.65)
+            self.main_tank.set_reload_time(0.60)
             self.enemy_tank.set_reload_time(0.70)
 
         while not game_exit:
