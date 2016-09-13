@@ -51,8 +51,8 @@ class Game:
         self.game_home_menu = HomeMenu(game=self)
 
         #  tank shell power bar
-        self.tank_max_power = 360
-        self.tank_min_power = 300
+        self.tank_max_power = 700
+        self.tank_min_power = 450
         self.power_bar_loc = (30, 30)
         self.power_bar_width = 60
         self.power_bar_height = 200
@@ -60,14 +60,14 @@ class Game:
         self.power_colors = [self.light_green, self.green, self.yellow, self.dark_yellow, self.light_red, self.red]
         self.num_power_settings = 6
         for i in range(self.num_power_settings):
-            setting = self.tank_min_power + i * (self.tank_max_power - self.tank_min_power)
+            setting = self.tank_min_power + i * (self.tank_max_power - self.tank_min_power) / self.num_power_settings
             self.power_settings.append(setting)
 
         self.current_power_setting = int(self.num_power_settings / 2)
 
         #  explosions
         self.explosion_time = 0.2
-        self.explosion_radius = 40
+        self.explosion_radius = 60
         self.current_explosions = []
         self.explosion_colors = [self.red, self.light_red, self.yellow, self.light_yellow]
 
