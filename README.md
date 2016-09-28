@@ -1,6 +1,6 @@
 #Tank Shootout
 
-This game was developed with pycharm.
+This game was developed with PyGame.
 
 In this game, the player tank and the computer tank battle by firing shells over the central wall. 
 
