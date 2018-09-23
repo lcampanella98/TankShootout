@@ -1,8 +1,4 @@
-#Tank Shootout
+# Tank Shootout
 
-This game was developed with PyGame.
-
-In this game, the player tank and the computer tank battle by firing shells over the central wall. 
-
-Tanks can move, and adjust the power and angle of the shot.
-
+Man your tank and destroy the enemy by firing shells over the central wall. 
+Adjust power and angle of your cannon while avoiding being hit. 
